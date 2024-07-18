@@ -1,6 +1,6 @@
 # mehakchohan.github.io
 
 ---
-title: "Mehak Chohan"
-subtitle: "Student at the University of Michigan"
+Mehak Chohan
+Sophomore Student at the University of Michigan
 ---
