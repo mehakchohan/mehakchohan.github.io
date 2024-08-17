@@ -14,43 +14,30 @@
             color: #333;
             line-height: 1.6;
         }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-            padding: 20px 0;
-        }
         header {
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
             padding: 20px 0;
             border-bottom: 1px solid #eee;
         }
-        header .logo {
-            font-size: 24px;
-            font-weight: bold;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            color: #333;
-        }
         header nav ul {
             list-style: none;
             display: flex;
-            gap: 20px;
-        }
-        header nav ul li {
-            display: inline;
+            gap: 30px;
+            margin: 0;
+            padding: 0;
         }
         header nav ul li a {
             text-decoration: none;
             color: #333;
             text-transform: uppercase;
-            font-size: 14px;
+            font-size: 16px;
+            font-weight: 500;
         }
         .main-content {
             text-align: center;
-            padding: 100px 0;
+            padding: 100px 20px;
             background-color: #f0f0f0;
         }
         .main-content h1 {
@@ -75,7 +62,7 @@
             border-radius: 5px;
         }
         .projects {
-            padding: 50px 0;
+            padding: 50px 20px;
             background-color: #ffffff;
             text-align: center;
         }
@@ -107,7 +94,7 @@
             color: #666;
         }
         .contact {
-            padding: 50px 0;
+            padding: 50px 20px;
             text-align: center;
             background-color: #f0f0f0;
         }
@@ -140,10 +127,7 @@
 </head>
 <body>
 
-    <header class="container">
-        <div class="logo">
-            MC.
-        </div>
+    <header>
         <nav>
             <ul>
                 <li><a href="#about">About</a></li>
