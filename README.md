@@ -1,6 +1,3 @@
-# mehakchohan.github.io
-
----
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,7 +39,7 @@
         }
         header ul li {
             display: inline;
-            padding: 0 20px 0 20px;
+            padding: 0 20px;
         }
         header .logo {
             float: left;
@@ -113,7 +110,7 @@
     <section id="about" class="about-me">
         <h2>About Me</h2>
         <p>
-            I am a sophomore at the University of Michigan studying [Your Major]. I am passionate about [Your Interests] and eager to gain experience in [Your Field]. My goal is to [Your Goals].
+            I am a sophomore at the University of Michigan studying Computer Science. I am passionate about software development, artificial intelligence, and eager to gain experience in the tech industry. My goal is to contribute to impactful projects and develop innovative solutions.
         </p>
     </section>
 
@@ -123,5 +120,3 @@
 
 </body>
 </html>
-
----
