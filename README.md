@@ -73,6 +73,66 @@
             text-transform: uppercase;
             border-radius: 5px;
         }
+        section {
+            padding: 60px 0;
+        }
+        .projects {
+            background-color: #f9f9f9;
+        }
+        .projects h2 {
+            text-align: center;
+            font-size: 36px;
+            color: #333;
+        }
+        .project-list {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+        .project-item {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 48%;
+        }
+        .project-item h3 {
+            font-size: 24px;
+            margin-top: 0;
+        }
+        .project-item p {
+            color: #666;
+        }
+        .contact {
+            background-color: #333;
+            color: #fff;
+        }
+        .contact h2 {
+            text-align: center;
+            font-size: 36px;
+            color: #fff;
+        }
+        .contact form {
+            max-width: 600px;
+            margin: 20px auto;
+            text-align: center;
+        }
+        .contact input, .contact textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: none;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .contact input[type="submit"] {
+            background-color: #000;
+            color: #fff;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
         footer {
             text-align: center;
             padding: 20px 0;
@@ -104,6 +164,37 @@
         <p>Sophomore Student at the University of Michigan, passionate about software development and AI.</p>
         <p>Working on making meaningful contributions to the tech world.</p>
         <a href="#about">See More About Me</a>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-list">
+                <div class="project-item">
+                    <h3>Project 1</h3>
+                    <p>Brief description of your project. You can explain what it is, how it works, and what technologies you used.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Project 2</h3>
+                    <p>Brief description of your project. You can explain what it is, how it works, and what technologies you used.</p>
+                </div>
+                <!-- Add more project items as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="#" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <input type="submit" value="Send Message">
+            </form>
+        </div>
     </section>
 
     <footer>
