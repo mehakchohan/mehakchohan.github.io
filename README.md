@@ -18,14 +18,12 @@
             width: 80%;
             margin: auto;
             overflow: hidden;
-            padding: 20px;
         }
         header {
-            background: #333;
+            background: #2c3e50;
             color: #fff;
-            padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #ff6600 3px solid;
+            padding: 15px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
         header a {
             color: #fff;
@@ -36,10 +34,11 @@
         header ul {
             padding: 0;
             list-style: none;
+            text-align: right;
         }
         header ul li {
             display: inline;
-            padding: 0 20px;
+            padding: 0 15px;
         }
         header .logo {
             float: left;
@@ -50,38 +49,55 @@
         }
         header nav {
             float: right;
-            margin-top: 10px;
         }
         .hero {
-            background: url('https://images.unsplash.com/photo-1511974035430-5de47d3b95da?auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover;
-            height: 500px;
+            background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover;
+            height: 600px;
             text-align: center;
             color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
         }
         .hero h1 {
-            margin-top: 150px;
-            font-size: 50px;
+            font-size: 60px;
+            margin: 0;
             text-transform: uppercase;
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        .hero p {
+            font-size: 24px;
+            margin-top: 10px;
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 10px 20px;
+            border-radius: 5px;
         }
         .about-me {
             padding: 50px 0;
             text-align: center;
+            background-color: #ecf0f1;
         }
         .about-me h2 {
             font-size: 36px;
             margin-bottom: 20px;
+            color: #2c3e50;
         }
         .about-me p {
             font-size: 18px;
-            width: 60%;
+            width: 70%;
             margin: auto;
+            color: #34495e;
         }
         footer {
-            background: #333;
+            background: #2c3e50;
             color: #fff;
             text-align: center;
             padding: 20px 0;
             margin-top: 20px;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
         }
     </style>
 </head>
