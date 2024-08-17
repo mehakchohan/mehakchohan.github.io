@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mehak Chohan | Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
@@ -164,7 +163,6 @@
         <p>You can reach out to me via the following contacts:</p>
         <a href="mailto:mehakgul@umich.edu">Email: your.email@example.com</a>
         <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn: yourprofile</a>
-        <!-- Add more contact links as needed -->
     </section>
 
     <footer>
