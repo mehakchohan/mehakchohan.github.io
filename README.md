@@ -139,9 +139,7 @@
 
     <section class="main-content">
         <h1>I'm Mehak Chohan</h1>
-        <p>Sophomore Student at the University of Michigan, passionate about software development and AI.</p>
-        <p>Working on making meaningful contributions to the tech world.</p>
-        <a href="#about">See More About Me</a>
+        <p>Sophomore Student at the University of Michigan, passionate about software development and AI. Working on making meaningful contributions to the tech world.</p>
     </section>
 
     <section id="projects" class="projects">
