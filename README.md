@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -130,9 +130,8 @@
     <header>
         <nav>
             <ul>
-                <li><a href="#about">About</a></li>
+                <li><a href="#about">Projects</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#resume">Resume</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -165,7 +164,7 @@
     <section id="contact" class="contact">
         <h2>Contact Me</h2>
         <p>You can reach out to me via the following contacts:</p>
-        <a href="mailto:your.email@example.com">Email: your.email@example.com</a>
+        <a href="mailto:mehakgul@umich.edu">Email: your.email@example.com</a>
         <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn: yourprofile</a>
         <!-- Add more contact links as needed -->
     </section>
