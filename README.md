@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -51,12 +51,13 @@
         .main-content {
             text-align: center;
             padding: 100px 0;
+            background-color: #f0f0f0;
         }
         .main-content h1 {
             font-size: 48px;
             margin: 0;
             font-weight: 700;
-            color: #000;
+            color: #2c3e50;
         }
         .main-content p {
             font-size: 20px;
@@ -67,71 +68,65 @@
             display: inline-block;
             margin-top: 20px;
             padding: 10px 20px;
-            background-color: #000;
+            background-color: #2c3e50;
             color: #fff;
             text-decoration: none;
             text-transform: uppercase;
             border-radius: 5px;
         }
-        section {
-            padding: 60px 0;
-        }
         .projects {
-            background-color: #f9f9f9;
+            padding: 50px 0;
+            background-color: #ffffff;
+            text-align: center;
         }
         .projects h2 {
-            text-align: center;
             font-size: 36px;
-            color: #333;
-        }
-        .project-list {
-            display: flex;
-            justify-content: space-between;
-            gap: 20px;
-            flex-wrap: wrap;
-            margin-top: 40px;
+            margin-bottom: 40px;
+            color: #2c3e50;
         }
         .project-item {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            width: 48%;
+            display: inline-block;
+            width: 45%;
+            margin: 2.5%;
+            vertical-align: top;
+        }
+        .project-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
         .project-item h3 {
             font-size: 24px;
-            margin-top: 0;
+            margin-bottom: 10px;
+            color: #2c3e50;
         }
         .project-item p {
+            font-size: 16px;
             color: #666;
         }
         .contact {
-            background-color: #333;
-            color: #fff;
+            padding: 50px 0;
+            text-align: center;
+            background-color: #f0f0f0;
         }
         .contact h2 {
-            text-align: center;
             font-size: 36px;
-            color: #fff;
+            margin-bottom: 20px;
+            color: #2c3e50;
         }
-        .contact form {
-            max-width: 600px;
-            margin: 20px auto;
-            text-align: center;
+        .contact p {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 10px;
         }
-        .contact input, .contact textarea {
-            width: 100%;
-            padding: 10px;
-            margin: 10px 0;
-            border-radius: 5px;
-            border: none;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-        .contact input[type="submit"] {
-            background-color: #000;
-            color: #fff;
-            text-transform: uppercase;
-            cursor: pointer;
+        .contact a {
+            font-size: 18px;
+            color: #2c3e50;
+            text-decoration: none;
+            display: block;
+            margin: 5px 0;
         }
         footer {
             text-align: center;
@@ -153,6 +148,7 @@
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -165,35 +161,29 @@
         <a href="#about">See More About Me</a>
     </section>
 
-    <!-- Projects Section -->
     <section id="projects" class="projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="project-list">
-                <div class="project-item">
-                    <h3>Project 1</h3>
-                    <p>Brief description of your project. You can explain what it is, how it works, and what technologies you used.</p>
-                </div>
-                <div class="project-item">
-                    <h3>Project 2</h3>
-                    <p>Brief description of your project. You can explain what it is, how it works, and what technologies you used.</p>
-                </div>
-                <!-- Add more project items as needed -->
-            </div>
+        <h2>Projects</h2>
+        <!-- Project 1 -->
+        <div class="project-item">
+            <img src="https://via.placeholder.com/800x400" alt="Project 1">
+            <h3>Project Title 1</h3>
+            <p>A brief description of what this project is about. You can explain the technologies used and the purpose of the project.</p>
         </div>
+        <!-- Project 2 -->
+        <div class="project-item">
+            <img src="https://via.placeholder.com/800x400" alt="Project 2">
+            <h3>Project Title 2</h3>
+            <p>A brief description of what this project is about. You can explain the technologies used and the purpose of the project.</p>
+        </div>
+        <!-- Add more project items as needed -->
     </section>
 
-    <!-- Contact Section -->
     <section id="contact" class="contact">
-        <div class="container">
-            <h2>Contact Me</h2>
-            <form action="#" method="POST">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>
-                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-                <input type="submit" value="Send Message">
-            </form>
-        </div>
+        <h2>Contact Me</h2>
+        <p>You can reach out to me via the following contacts:</p>
+        <a href="mailto:your.email@example.com">Email: your.email@example.com</a>
+        <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn: yourprofile</a>
+        <!-- Add more contact links as needed -->
     </section>
 
     <footer>
